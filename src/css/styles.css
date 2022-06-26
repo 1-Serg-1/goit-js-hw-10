@@ -11,10 +11,41 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+h2 {
+  margin: 0;
+  padding: 5px;
+  margin-left: 10px;
+}
 
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+#search-box:focus-within, #search-box:focus-visible {
+  outline-color: #0000ff;
+}
+
+.country-list {
+  font-size: 10px;
+  margin-left: 16px;
+  
+}
+
+.country-info {
+  margin-left: 16px;
 }
